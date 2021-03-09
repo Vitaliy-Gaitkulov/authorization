@@ -1,0 +1,79 @@
+.container {
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.input {
+  position: relative;
+  color: #2f3030;
+  box-sizing: border-box;
+  font-size: 16px;
+  width: 100%;
+  padding: 21px 23px;
+  border: 2px solid white;
+  border-radius: 4px;
+}
+
+.button {
+  background: rgb(40,210,208);
+  background: linear-gradient(90deg, rgba(40,210,208,1) 0%, rgba(4,193,191,1) 100%);
+  transition: all 0.05s ease-in;
+  border-radius: 4px;
+  border: 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 20px 5px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+}
+
+.inputWrapper {
+  position: relative;
+  width: 100%;
+  margin: 5px;
+}
+
+.labelRadio {
+  border: 1px solid #fff;
+  display: flex;
+  color: #fff;
+  text-align: left;
+  padding: 10px;
+  margin: 10px 5px;
+  input {
+    margin-right: 10px;
+  }
+  span {
+    font-size: 20px;
+  }
+  p {
+    font-size: 12px;
+  }
+}
+
+.labelCheckbox {
+  display: flex;
+  color: #fff;
+  text-align: left;
+  align-items: center;
+  padding: 10px;
+  margin: 0 5px;
+  input {
+    margin-right: 10px;
+  }
+  span {
+    font-size: 12px;
+  }
+}

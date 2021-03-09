@@ -1,0 +1,29 @@
+.header{
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color: inherit;
+  padding: 0 50px;
+  margin: 50px 50px 0 50px;
+}
+
+.logo{
+  height: 50px;
+}
+
+.button{
+  display: flex;
+  height: 40px;
+  text-align: center;
+  align-items: center;
+  padding: 0 15px;
+  color: white;
+  background: #7BC8FE;
+  border: 1px solid rgba(255,255,255,0.77);
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  text-decoration: none;
+  cursor: pointer;
+}
