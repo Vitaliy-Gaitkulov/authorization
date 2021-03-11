@@ -4,11 +4,14 @@ import Header from "../../components/Header";
 import styles from "./SignIn.module.scss";
 
 const SingIn = (props) => {
+
+  const onSubmit = values => console.log(values)
+
   return (
     <div className={styles.container}>
-      <Header text="Singup" to="/sing-up" />
+      <Header link={{textBtn: "Singup", to: "/sing-up"}}  />
       <h1 className={styles.headerText}>login to your account</h1>
-      <SignInForm />
+      <SignInForm onSubmit={onSubmit}/>
     </div>
   );
 };

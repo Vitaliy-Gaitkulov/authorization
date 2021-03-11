@@ -4,14 +4,17 @@ import Header from "../../components/Header";
 import styles from "./SignUp.module.scss";
 
 const SingUp = (props) => {
+
+  const onSubmit = values => console.log(values)
+
   return (
     <div className={styles.container}>
-      <Header to="/" text="Login" />
+      <Header link={{to: "/", textBtn: "Login"}}  />
       <h1 className={styles.headerText}>create an account</h1>
       <span className={styles.headerSpan}>
         We always keep your name and email address private.
       </span>
-      <SignUpForm />
+      <SignUpForm onSubmit={onSubmit}/>
     </div>
   );
 };

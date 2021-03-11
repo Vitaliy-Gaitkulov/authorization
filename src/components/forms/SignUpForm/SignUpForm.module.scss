@@ -1,6 +1,5 @@
 .container {
   width: 600px;
-  height: 600px;
   margin: 0 auto;
 }
 
@@ -23,7 +22,6 @@
 
 .button {
   background: rgb(40,210,208);
-  background: linear-gradient(90deg, rgba(40,210,208,1) 0%, rgba(4,193,191,1) 100%);
   transition: all 0.05s ease-in;
   border-radius: 4px;
   border: 0;
@@ -43,24 +41,6 @@
   position: relative;
   width: 100%;
   margin: 5px;
-}
-
-.labelRadio {
-  border: 1px solid #fff;
-  display: flex;
-  color: #fff;
-  text-align: left;
-  padding: 10px;
-  margin: 10px 5px;
-  input {
-    margin-right: 10px;
-  }
-  span {
-    font-size: 20px;
-  }
-  p {
-    font-size: 12px;
-  }
 }
 
 .labelCheckbox {
